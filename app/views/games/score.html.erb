@@ -1,0 +1,12 @@
+<h1> 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱 🇵🇱</h1>
+<br>
+<% if @found && !@tfarr.include?(false) %>
+  <p>word gud, nice</p>
+<% elsif @found && @tfarr.include?(false) %>
+  <p>you cheeky cheetah, <%= params[:word] %> uses wrong letters</p>
+<% else %>
+  <p>stop playing tricks, I may be Polish but I knoe <%= params[:word] %> does not exist 🇵🇱</p>
+<% end %>
+
+<br>
+<%= link_to "🇵🇱 TRAJ AGEJN 🇵🇱", new_path %>

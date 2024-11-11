@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+ul {
+  list-style-type: none;
+  display: inline-flex;
+  font-size: xx-large;
+}
